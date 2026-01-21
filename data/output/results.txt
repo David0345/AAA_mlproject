@@ -1,0 +1,2 @@
+catboost without images and texts = 0.371 macrologmae
+catboost on total item embedding = 0.334036 macrologmae
