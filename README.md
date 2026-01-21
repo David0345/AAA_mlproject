@@ -12,10 +12,15 @@
 конкатенированы с табличными данными для получения эмбеддингов всего объявления.
 
 На этих эмбеддингах обучены линейные модели, случайный лес и градиентный бустинг:
-final_solution.ipynb
+baseline_item_embeddings.ipynb
+
+Лучший результат показала простая нейросеть:
+final_item_embeddings.ipynb
 
 В дополнительных ноутбуках описаны: 
-EDA, extracting embeddings from texts, images
+- EDA - eda.ipynb;
+- extracting embeddings from texts - texts_analysis.ipynb;
+- extracting embeddings from images - images_embedder.ipynb
 
 И вспомогательные классы и функции в файлах в директории preprocessing
 
@@ -55,13 +60,13 @@ EDA, extracting embeddings from texts, images
 !!! Для загрузки эмбеддингов(директория image_embeddings) нужно запустить preprocessing/download_files.py
 """
 
-
 final_project
 └───README.md                          # Описание проекта, структура, требования 
 └───eda.ipynb                          # EDA и baseline модели
 └───images_embedder.ipynb              # Модель для получения эмбеддингов изображений
 └───texts_analysis.ipynb               # Анализ текстов
-└───final_solution.ipynb               # Финальное обучение
+└───baseline_item_embeddings.ipynb     # Baseline on item embeddings
+└───final_item_embeddings.ipynb        # Best result on item embeddings (MLP)
 └───metrics.py                         # Метрики
 └───requirements.txt                   # requirements
 └───preprocessing   

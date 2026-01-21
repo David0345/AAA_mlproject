@@ -366,7 +366,7 @@ class MultiStepPreprocessor:
 
         # loading image embeddings
         test_images = pd.read_parquet(test_image_path, engine='pyarrow')
-        test_images = test_images.drop('item_id', axis=1, inplace=True)
+        test_images = test_images.drop('item_id', axis=1)
 
         # getting text features
         test_texts = self._prepare_text_features(df_test, False)
