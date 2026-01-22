@@ -1,7 +1,6 @@
 catboost==1.2.8
 gdown==5.2.1
 gensim==4.4.0
-ipython==8.12.3
 ipython==9.5.0
 matplotlib>=3.10.7
 missingno==0.5.2
